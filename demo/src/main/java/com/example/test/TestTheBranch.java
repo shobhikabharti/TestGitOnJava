@@ -15,6 +15,15 @@ public class TestTheBranch {
 	String address;
 	Integer phone;
 	String email;
+	String currency;
+
+	public String getCurrency() {
+		return currency;
+	}
+
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
 
 	public String getName() {
 		return name;
